@@ -51,8 +51,10 @@ effacé la configuration automatique créée lors de l'installation.
 ### Résolution
 Ajout manuel de la configuration dans /etc/network/interfaces :
 
+```bash
 auto ens33
 iface ens33 inet dhcp
+```
 
 Puis redémarrage du service réseau :
 sudo systemctl restart networking

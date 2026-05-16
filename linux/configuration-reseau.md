@@ -26,15 +26,17 @@ sudo nano /etc/network/interfaces
 
 Contenu du fichier :
 
+```
 auto lo
 iface lo inet loopback
 
 auto ens33
 iface ens33 inet static
-address 192.168.33.128
-netmask 255.255.255.0
-gateway 192.168.33.2
-dns-nameservers 8.8.8.8
+    address 192.168.33.128
+    netmask 255.255.255.0
+    gateway 192.168.33.2
+    dns-nameservers 8.8.8.8
+```
 
 Application des changements :
 
