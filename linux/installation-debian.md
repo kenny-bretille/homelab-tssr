@@ -88,6 +88,12 @@ Connexion réussie depuis l'hôte Ubuntu :
 ssh kenny@192.168.33.128
 ```
 
+## Réflexions et apprentissages
+
+- J'ai compris pourquoi on installe un serveur sans interface graphique - pas uniquement
+  pour économiser des ressources, mais aussi pour réduire la surface d'attaque. Moins de 
+  logiciels installés = moins de failles potentielles.
+
 ## Screenshots
 
 ![Partitionnement options](../assets/installation-partitionnement.png)
@@ -102,8 +108,3 @@ ssh kenny@192.168.33.128
 ![Statut SSH](../assets/installation-ssh-status.png)
 ![Connexion SSH](../assets/installation-ssh-connexion.png)
 
-## Réflexions et apprentissages
-
-- J'ai compris pourquoi on installe un serveur sans interface graphique - pas uniquement
-  pour économiser des ressources, mais aussi pour réduire la surface d'attaque. Moins de 
-  logiciels installés = moins de failles potentielles.

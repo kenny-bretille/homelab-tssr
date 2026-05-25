@@ -122,6 +122,20 @@ chaque employé accède uniquement aux dossiers de son département.
 | /etc/group | Liste des groupes |
 | /etc/shadow | Mots de passe chiffrés |
 
+## Réflexions et apprentissages
+
+- Je me suis demandé pourquoi est ce qu'un dossier commun en entreprise doit être
+  créer dans /srv et encore une fois c'est parce qu'il y a le FHS qui définit un rôle
+  précis et normalisé à chaque dossier sur Linux. Un dossier commun en entreprise est 
+  considéré comme service, c'est pourquoi on le retrouve dans le /srv.
+
+- L'utilisation du | grep est essentiel pour filtrer des longs résultats de commande.
+  Avec l'option -E, la commande grep permet les expressions régulières étendues donc 
+  plus besoin de d'échapper avec \.
+
+- Bien utiliser pwd pour savoir où l'on se trouve avant de créer un dossier ou un
+  fichier.
+
 ## Screenshots
 
 ![Groupes créés](../assets/users-groupes-crees.png)
@@ -130,18 +144,6 @@ chaque employé accède uniquement aux dossiers de son département.
 ![Permissions configurées](../assets/users-permissions.png)
 ![Test contrôle accès](../assets/users-test-acces.png)
 
-## Réflexions et apprentissages
 
-- Je me suis demandé pourquoi est ce qu'un dossier commun en entreprise doit être
-  créer dans /srv et encore une fois c'est parce qu'il y a le FHS qui définit un rôle
-  précis et normalisé à chaque dossier sur Linux. Un dossier commun en entreprise est 
-  considéré comme service, c'est pourquoi on le retrouve dans le /srv.  
-
-- L'utilisation du | grep est essentiel pour filtrer des longs résultats de commande.
-  Avec l'option -E, la commande grep permet les expressions régulières étendues donc 
-  plus besoin de d'échapper avec \.
-
-- Bien utiliser pwd pour savoir où l'on se trouve avant de créer un dossier ou un
-  fichier.
 
 

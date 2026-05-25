@@ -117,19 +117,6 @@ Note : le message `Broken pipe` lors du reboot depuis SSH
 est normal — la connexion SSH est coupée quand le serveur
 redémarre. Se reconnecter après 30 secondes.
 
-## Screenshots
-
-![apt update ok](../assets/paquets-apt-update-ok.png)
-![apt install apache2](../assets/paquets-apt-install-apache2.png)
-![systemctl status apache2](../assets/paquets-apache-status.png)
-![apache it works](../assets/paquets-apache-works.png)
-![apt show apache2](../assets/paquets-apt-show.png)
-![dpkg -l](../assets/paquets-dpkg-list.png)
-![apt list upgradable](../assets/paquets-upgradable.png)
-![apt upgrade début](../assets/paquets-apt-upgrade-debut.png)
-![apt upgrade fin](../assets/paquets-apt-upgrade-fin.png)
-![uname nouveau noyau](../assets/paquets-nouveau-noyau.png)
-
 ## Réflexions et apprentissages
 
 - Je me suis demandé la différence entre apt et dpkg et j'ai trouvé une analogie par
@@ -143,4 +130,18 @@ redémarre. Se reconnecter après 30 secondes.
 - Il est important de faire apt update avant un apt install car sinon on installe 
   depuis un catalogue potentiellement obsolète et on rate des mises à jour de 
   sécurité.
+
+## Screenshots
+
+![apt update ok](../assets/paquets-apt-update-ok.png)
+![apt install apache2](../assets/paquets-apt-install-apache2.png)
+![systemctl status apache2](../assets/paquets-apache-status.png)
+![apache it works](../assets/paquets-apache-works.png)
+![apt show apache2](../assets/paquets-apt-show.png)
+![dpkg -l](../assets/paquets-dpkg-list.png)
+![apt list upgradable](../assets/paquets-upgradable.png)
+![apt upgrade début](../assets/paquets-apt-upgrade-debut.png)
+![apt upgrade fin](../assets/paquets-apt-upgrade-fin.png)
+![uname nouveau noyau](../assets/paquets-nouveau-noyau.png)
+
 

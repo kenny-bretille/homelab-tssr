@@ -99,14 +99,6 @@ passage en IP statique
 pour éviter que les requêtes DNS sortent du réseau
 - `valid_lft forever` dans `ip a` confirme que l'IP est statique
 
-## Screenshots
-
-![interfaces IP statique](../assets/reseau-interfaces-statique.png)
-![ip a résultat](../assets/reseau-ip-a.png)
-![apt update erreur DNS](../assets/paquets-apt-update-erreur-dns.png)
-![resolv.conf vide](../assets/paquets-resolv-conf-vide.png)
-![ping connectivité](../assets/reseau-ping.png)
-
 ## Réflexions et apprentissages
 
 - Je me suis demandé pourquoi le fichier resolv.conf se trouve dans /etc et non pas
@@ -115,4 +107,13 @@ pour éviter que les requêtes DNS sortent du réseau
   dans /etc d'après le FHS qui est un standard de hierarchie des fichiers sur Linux.
   De plus /var contient les données générées automatiquement par le système alors que
   /etc contient la configuration décidée par l'admin.
+
+## Screenshots
+
+![interfaces IP statique](../assets/reseau-interfaces-statique.png)
+![ip a résultat](../assets/reseau-ip-a.png)
+![apt update erreur DNS](../assets/paquets-apt-update-erreur-dns.png)
+![resolv.conf vide](../assets/paquets-resolv-conf-vide.png)
+![ping connectivité](../assets/reseau-ping.png)
+
  
