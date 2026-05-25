@@ -107,3 +107,12 @@ pour éviter que les requêtes DNS sortent du réseau
 ![resolv.conf vide](../assets/paquets-resolv-conf-vide.png)
 ![ping connectivité](../assets/reseau-ping.png)
 
+## Réflexions et apprentissages
+
+- Je me suis demandé pourquoi le fichier resolv.conf se trouve dans /etc et non pas
+  /var étant donné que c'est un fichier très souvent variable (alimenté par le dhcp)
+  L'explication : - c'est un fichier de configuration qui doit, de ce fait, se trouvé
+  dans /etc d'après le FHS qui est un standard de hierarchie des fichiers sur Linux.
+  De plus /var contient les données générées automatiquement par le système alors que
+  /etc contient la configuration décidée par l'admin.
+ 

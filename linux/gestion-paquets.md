@@ -129,3 +129,18 @@ redémarre. Se reconnecter après 30 secondes.
 ![apt upgrade début](../assets/paquets-apt-upgrade-debut.png)
 ![apt upgrade fin](../assets/paquets-apt-upgrade-fin.png)
 ![uname nouveau noyau](../assets/paquets-nouveau-noyau.png)
+
+## Réflexions et apprentissages
+
+- Je me suis demandé la différence entre apt et dpkg et j'ai trouvé une analogie par
+  rapport à mon ancien métier de chauffeur livreur - apt est le transporteur qui va
+  chercher les colis (paquets) chez un fournisseur et gère la logistique tandis que 
+  dpkg est le gestionnaire d'entrepôt qui receptionne et enregistre tout. Tout ce 
+  qu'apt amène se retrouve enregistré dans dpkg -l. En ce qui concerne l'installation, 
+  apt peut tout faire tout seul alors que dpkg peut installer seulement si les paquets
+  sont déjà présents dans l'entrepôt en ".deb".
+
+- Il est important de faire apt update avant un apt install car sinon on installe 
+  depuis un catalogue potentiellement obsolète et on rate des mises à jour de 
+  sécurité.
+

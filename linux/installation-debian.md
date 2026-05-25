@@ -101,3 +101,9 @@ ssh kenny@192.168.33.128
 ![Set default CLI](../assets/installation-set-default-cli.png)
 ![Statut SSH](../assets/installation-ssh-status.png)
 ![Connexion SSH](../assets/installation-ssh-connexion.png)
+
+## Réflexions et apprentissages
+
+- J'ai compris pourquoi on installe un serveur sans interface graphique - pas uniquement
+  pour économiser des ressources, mais aussi pour réduire la surface d'attaque. Moins de 
+  logiciels installés = moins de failles potentielles.
